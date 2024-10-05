@@ -28,6 +28,7 @@ IGNORE_CASE=1 cargo run -- <search_string> <file_path>
 - You can also use the `FLAGS` to achieve same
 
 `--case_insensitive` - performs case insensitive search
+
 `--case_sensitive` - perform case sensitive search
 
 NOTE that  The flags will take precedence if both are present simultaneously. For example, with the below command, FLAG is taking precedence over the Env var to perform appropriate search i.e. case sensitive. 
